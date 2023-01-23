@@ -41,4 +41,5 @@ kenobi = User("Kenobi","kenobi@dogmail.com")
 User.make_deposit(robert,100)
 User.make_deposit(silo,100)
 User.transfer_money(robert,silo,50)
+user
 
