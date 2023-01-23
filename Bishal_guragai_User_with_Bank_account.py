@@ -20,12 +20,6 @@ class User:
     def display_user_balance(self):
         print(f"User: {self.name}, Balance: {self.account.balance}")
 
-    # def transfer_money(self,amount,other_user):
-    #     self.account.balance -=amount
-    #     other_user.account.balance+=amount
-    #     self.display_user_balance()
-    #     other_user.display_user_balance
-    #     return self
     def transfer_money(self, other_user, amount):
         self.account.balance -= amount
         other_user.account.balance += amount
